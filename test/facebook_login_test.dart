@@ -1,6 +1,6 @@
 import 'package:flutter/services.dart';
-import 'package:flutter_facebook_login_with_web/flutter_facebook_login_with_web.dart';
-import 'package:flutter_facebook_login_with_web/src/clock.dart';
+import 'package:flutter_facebook_login_with_web_rep/flutter_facebook_login_with_web_rep.dart';
+import 'package:flutter_facebook_login_with_web_rep/src/clock.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 import 'custom_matchers.dart';

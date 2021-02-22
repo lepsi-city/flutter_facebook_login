@@ -1,6 +1,6 @@
 @TestOn("browser")
 import 'package:flutter/services.dart';
-import 'package:flutter_facebook_login_with_web/src/web/facebook_login_plugin_web.dart';
+import 'package:flutter_facebook_login_with_web_rep/src/web/facebook_login_plugin_web.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/mockito.dart';
 

@@ -1,10 +1,10 @@
 import 'dart:async';
 
 import 'package:flutter/services.dart';
-import 'package:flutter_facebook_login_with_web/src/web/entities/facebook_web_access_token.dart';
-import 'package:flutter_facebook_login_with_web/src/web/entities/facebook_web_response.dart';
+import 'package:flutter_facebook_login_with_web_rep/src/web/entities/facebook_web_access_token.dart';
+import 'package:flutter_facebook_login_with_web_rep/src/web/entities/facebook_web_response.dart';
 import 'package:flutter_web_plugins/flutter_web_plugins.dart';
-import 'package:flutter_facebook_login_with_web/src/web/interactors/browser_interactor.dart';
+import 'package:flutter_facebook_login_with_web_rep/src/web/interactors/browser_interactor.dart';
 
 // Facebook Web SDK
 // DOC: https://developers.facebook.com/docs/javascript/reference/v5.0

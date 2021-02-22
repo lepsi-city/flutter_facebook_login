@@ -1,4 +1,4 @@
-import 'package:flutter_facebook_login_with_web/src/web/entities/facebook_web_access_token.dart';
+import 'package:flutter_facebook_login_with_web_rep/src/web/entities/facebook_web_access_token.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 import '../../../data/data_web.dart';

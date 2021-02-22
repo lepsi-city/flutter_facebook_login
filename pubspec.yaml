@@ -1,7 +1,7 @@
-name: flutter_facebook_login_with_web
+name: flutter_facebook_login_with_web_rep
 description: A Flutter plugin for allowing users to authenticate with native Android &amp; iOS Facebook login SDKs.
-version: 3.0.1
-homepage: https://github.com/roughike/flutter_facebook_login
+version: 3.0.3
+homepage: https://github.com/lepsi-city/flutter_facebook_login
 
 dependencies:
   flutter:

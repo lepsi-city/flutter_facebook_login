@@ -4,10 +4,10 @@
 
 #import "GeneratedPluginRegistrant.h"
 
-#if __has_include(<flutter_facebook_login_with_web/FacebookLoginPlugin.h>)
-#import <flutter_facebook_login_with_web/FacebookLoginPlugin.h>
+#if __has_include(<flutter_facebook_login_with_web_rep/FacebookLoginPlugin.h>)
+#import <flutter_facebook_login_with_web_rep/FacebookLoginPlugin.h>
 #else
-@import flutter_facebook_login_with_web;
+@import flutter_facebook_login_with_web_rep;
 #endif
 
 @implementation GeneratedPluginRegistrant
