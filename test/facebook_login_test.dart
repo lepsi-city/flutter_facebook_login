@@ -1,11 +1,12 @@
 import 'package:flutter/services.dart';
-import 'package:flutter_facebook_login/flutter_facebook_login.dart';
-import 'package:flutter_facebook_login/src/clock.dart';
+import 'package:flutter_facebook_login_with_web/flutter_facebook_login_with_web.dart';
+import 'package:flutter_facebook_login_with_web/src/clock.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 import 'custom_matchers.dart';
 
 void main() {
+   TestWidgetsFlutterBinding.ensureInitialized();
   group('$FacebookLogin', () {
     const channel = MethodChannel('com.roughike/flutter_facebook_login');
 

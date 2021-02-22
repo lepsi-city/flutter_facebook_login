@@ -1,3 +1,5 @@
+FORKED WEB BRANCH FROM
+https://github.com/romulojjunior/flutter_facebook_login/tree/feature/web_support
 # flutter_facebook_login
 
 [![pub package](https://img.shields.io/pub/v/flutter_facebook_login.svg)](https://pub.dartlang.org/packages/flutter_facebook_login)
@@ -130,6 +132,44 @@ Once you have the Facebook App ID figured out, then you'll just have to copy-pas
 ```
 
 A sample of a complete Info.plist file can be found [here](https://github.com/roughike/flutter_facebook_login/blob/master/example/ios/Runner/Info.plist#L49-L70).
+
+Done!
+
+### WEB (Beta)
+
+This assumes that you've done the _"Register and Configure Your App with Facebook"_ step in the
+[the Facebook Login documentation for WEB site](https://developers.facebook.com/docs/facebook-login/web).
+
+After you've done that, find out what your _Facebook App ID_ is. You can find your Facebook App ID in your Facebook App's dashboard in the Facebook developer console.
+
+- Open folder web/index.html and paste this code inside BODY tag.
+- OBS. Facebook SDK use <b>HTTPS</b>. You need build and deploy your application ex:  https://my-site.dev.com
+- OBS. Check if your domain https://my-site.dev.com is registred in facebook deshboard.
+
+```JS
+  <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        appId      : '000000000000', // Replace "000000000000" with your Facebook App ID here.
+        xfbml      : true,
+        version    : 'v6.0' // Check current Facebook SDK version
+      });
+      FB.AppEvents.logPageView();
+    };
+  </script>
+```
+
+```JS
+  <script>
+    (function(d, s, id){
+       var js, fjs = d.getElementsByTagName(s)[0];
+       if (d.getElementById(id)) {return;}
+       js = d.createElement(s); js.id = id;
+       js.src = "https://connect.facebook.net/en_US/sdk.js";
+       fjs.parentNode.insertBefore(js, fjs);
+     }(document, 'script', 'facebook-jssdk'));
+  </script>
+```
 
 Done!
 
